@@ -3,7 +3,7 @@ plugins {
  //   id 'com.github.dcendents.android-maven'
 
 }
-
+apply plugin: 'maven-publish'
 android {
     namespace 'com.app.cardocrlibrary'
     compileSdk 34
@@ -27,7 +27,18 @@ android {
         targetCompatibility JavaVersion.VERSION_17
     }
 }
-
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.findByName('release')
+                groupId = 'com.github.mandipkanjiya'
+                artifactId = 'Card-Recognizer'
+                version = '1.0.6'
+            }
+        }
+    }
+}
 dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.6.1'

@@ -2,7 +2,7 @@ plugins {
     id 'com.android.application'
 }
 apply plugin: 'com.google.gms.google-services'
-/*apply plugin: 'maven-publish'*/
+apply plugin: 'maven-publish'
 
 /*publishing {
     publications {
@@ -58,7 +58,18 @@ android {
 
     namespace 'com.ocrapp'
 }
-
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.findByName('release')
+                groupId = 'com.github.mandipkanjiya'
+                artifactId = 'Card-Recognizer'
+                version = '1.0.6'
+            }
+        }
+    }
+}
 dependencies {
     implementation 'androidx.localbroadcastmanager:localbroadcastmanager:1.0.0'
     def lifecycle_version = "2.2.0"
