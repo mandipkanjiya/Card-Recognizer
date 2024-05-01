@@ -20,6 +20,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.content.FileProvider;
 import androidx.lifecycle.ViewModelProvider;
 
+import com.app.cardocrlibrary.CardRecognizeConstat;
 import com.app.cardocrlibrary.CardRecognizeInfo;
 import com.bumptech.glide.Glide;
 import com.google.android.gms.tasks.OnFailureListener;
@@ -143,13 +144,13 @@ public class ImageToTexttFragment extends BaseActivity<FragementImageToTextBindi
         cardHistoryModel.setCardType(cardType);
         init();
         apiObserve();
-        String bloack111="gdfdfgdfgoO668-47010-70296";
+     /*   String bloack111="gdfdfgdfgoO668-47010-70296";
         bloack111 = bloack111.replace("o", "0");
-        bloack111 = bloack111.replace("O", "0");
+        bloack111 = bloack111.replace("O", "0");*/
         /*if(bloack111.startsWith("0")) {
             bloack111 = bloack111.replaceFirst("0", "O");
         }*/
-        String validNumber = findNumberDriLicense(bloack111.toString().trim());
+        /*String validNumber = findNumberDriLicense(bloack111.toString().trim());
         if(validNumber.startsWith("0"))
         {
             validNumber=  validNumber.replaceFirst("0", "O");
@@ -157,7 +158,7 @@ public class ImageToTexttFragment extends BaseActivity<FragementImageToTextBindi
         Log.e("bloack111", "Yes " + validNumber.toString());
         String licenceDate="2015/02/024bEXP/EXP";
       String  DateFromDriLicense = findDateFromDriLicense(licenceDate);
-        Log.e("DateFromDriLicense", "Yes " + DateFromDriLicense);
+        Log.e("DateFromDriLicense", "Yes " + DateFromDriLicense);*/
       /*  Log.e("DateFromDriLicense", "Yes " + DateFromDriLicense);
         // System.out.println("yes");
         bloack111 =  bloack111.replaceFirst("D", "");
@@ -411,7 +412,7 @@ public class ImageToTexttFragment extends BaseActivity<FragementImageToTextBindi
                // getViewBinding().linUploadImage.setVisibility(View.GONE);
                 //getViewBinding().postImageView.setVisibility(View.VISIBLE);
 
-                cardRecognizeInfo.firebaseVisionImageFromFile(selectedImageUri);
+                cardRecognizeInfo.firebaseVisionImageFromFile(selectedImageUri, CardRecognizeConstat.ELECTRCIAN_CARD_TYPE);
                 //setOnItemCLickListener
                 //firebaseVisionImageFromFile(selectedImageUri);
             } else if (requestCode == 156) {
@@ -422,7 +423,7 @@ public class ImageToTexttFragment extends BaseActivity<FragementImageToTextBindi
                             .into(getViewBinding().postImageView);
                    // getViewBinding().linUploadImage.setVisibility(View.GONE);
                     //getViewBinding().postImageView.setVisibility(View.VISIBLE);
-                    cardRecognizeInfo.firebaseVisionImageFromFile(tempUri);
+                    cardRecognizeInfo.firebaseVisionImageFromFile(tempUri,CardRecognizeConstat.ELECTRCIAN_CARD_TYPE);
                     //firebaseVisionImageFromFile(tempUri);
        /* File compressimagefile = null;
         try {
