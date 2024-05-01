@@ -4,27 +4,7 @@ plugins {
 apply plugin: 'com.google.gms.google-services'
 apply plugin: 'maven-publish'
 
-/*publishing {
-    publications {
-        release(MavenPublication) {
-            groupId = 'com.github.mandipkanjiya'
-            artifactId = 'Card-Recognizer'
-            version = '1.0.6'
 
-            afterEvaluate {
-                from components.release
-            }
-        }
-    }
-}
-publishing {
-    publications {
-        jar(MavenPublication) {
-
-
-        }
-    }
-}*/
 
 android {
     compileSdk 34
@@ -65,7 +45,7 @@ afterEvaluate {
                 from components.findByName('release')
                 groupId = 'com.github.mandipkanjiya'
                 artifactId = 'Card-Recognizer'
-                version = '1.0.6'
+                version = '1.0.7'
             }
         }
     }
