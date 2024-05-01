@@ -1,0 +1,263 @@
+<resources xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:alertDialogTheme">@style/AlertDialogCustom</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorSwitchThumbNormal">#f1f1f1</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <!-- Inactive track color(30% transparency) -->
+        <item name="android:colorForeground">#42221f1f</item>
+    </style>
+    <style name="MineCustomTabText" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="textAllCaps">false</item>
+    </style>
+    <style name="MineSelectedTabText" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">@dimen/_16sdp</item>
+        <item name="fontFamily">@font/poppins_semibold</item>
+        <item name="tabTextColor">@color/textDark</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="darkTextSemiBold" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/poppins_semibold</item>
+        <item name="android:textColor">@color/textDark</item>
+    </style>
+
+    <style name="darkTextBoldPoppins" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/textDark</item>
+    </style>
+
+    <style name="darkTextSemiBoldPoppins" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/poppins_semibold</item>
+        <item name="android:textColor">@color/textDark</item>
+    </style>
+
+    <style name="lightTextSemiBold" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/poppins_semibold</item>
+        <item name="android:textColor">@color/textLight</item>
+    </style>
+
+    <style name="darkTextMedium" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/textDark</item>
+    </style>
+    <style name="darkTextMediumPoppins" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/textDark</item>
+    </style>
+
+    <style name="lightTextMedium" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/textLight</item>
+    </style>
+
+    <style name="darkTextRegular" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:textColor">@color/textDark</item>
+    </style>
+
+    <style name="lightTextRegular" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:textColor">@color/textLight</item>
+    </style>
+
+    <style name="mediumTextBtnFill" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/_40sdp</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@drawable/bg_edittext_corner_white</item>
+    </style>
+    <style name="mediumTextBtnBlueFill" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/_40sdp</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@drawable/button_blue_fill_background</item>
+    </style>
+    <style name="lightTextInputMedium" parent="Widget.Design.TextInputLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/textLight</item>
+        <item name="singleLine">true</item>
+    </style>
+    <style name="mediumTextBtnOutline" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/_40sdp</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="android:background">@drawable/button_outline_yellow_background</item>
+    </style>
+    <style name="lightEditTextMediumStripe" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/textLight</item>
+        <item name="singleLine">true</item>
+    </style>
+
+    <style name="WhiteEditTextMedium" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/textLight</item>
+        <item name="android:background">@null</item>
+        <item name="singleLine">true</item>
+    </style>
+    <style name="lightEditTextMedium" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/textLight</item>
+        <item name="android:background">@null</item>
+        <item name="singleLine">true</item>
+    </style>
+    <style name="darkEditTextMedium" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/textDark</item>
+        <item name="android:background">@null</item>
+        <item name="singleLine">true</item>
+    </style>
+    <style name="whiteTextMedium" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="whiteTextRegular" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+        <style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog.Alert">
+            <item name="android:textColor">@color/textDark</item>
+            <item name="fontFamily">@font/poppins_regular</item>
+            <item name="android:textSize">10sp</item>
+            <item name="colorAccent">@color/colorAccent</item>
+        </style>
+
+    <style name="ShapeAppearanceOverlay.App.CornerSize50Percent" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="BottomSheetDialog1" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="cardCornerRadius">@dimen/_50sdp</item>
+        <item name="behavior_peekHeight">@dimen/_600sdp</item>
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+    <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="BottomSheetDialogOtp" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="cardCornerRadius">@dimen/_50sdp</item>
+        <item name="behavior_peekHeight">@dimen/_600sdp</item>
+        <item name="bottomSheetStyle">@style/AppModalStyleOtp</item>
+    </style>
+    <style name="AppModalStyleOtp" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bg_for_top_corner</item>
+    </style>
+    <style name="RadioButtonStyle" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:textColorSecondary">@color/black</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+    </style>
+    <style name="MyRadioButtonStyle" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="buttonTint">@drawable/my_compound_button_color_selector</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+    </style>
+    <style name="TabLayoutStyle" parent="Base.Widget.Design.TabLayout">
+        <item name="android:textSize">@dimen/_8sdp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="DialogTheme2" parent="Theme.AppCompat.DayNight.Dialog">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:windowNoTitle">true</item>
+        <!--<item name="android:windowIsFloating">false</item>-->
+    </style>
+    <style name="DialogTheme1" parent="Theme.AppCompat.Light.Dialog">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+    <style name="PopupMenuOverlapAnchor" parent="@style/Widget.AppCompat.Light.PopupMenu">
+        <item name="android:dropDownHorizontalOffset">-4dp</item>
+        <item name="android:dropDownVerticalOffset">4dp</item>
+        <item name="android:itemTextAppearance">@style/itemTextStyle.AppTheme</item>
+    </style>
+    <style name="itemTextStyle.AppTheme" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+    </style>
+    <style name="CustomStyledRadioButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/colorPrimary</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+    </style>
+    <style name="customstyleBottomnavigation" parent="Widget.Design.BottomNavigationView">
+        <item name="enforceMaterialTheme">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="itemBackground">@null</item>
+        <!-- <item name="itemIconTint">@color/colorPrimary</item>-->
+        <!--<item name="itemic">@color/colorPrimary</item>-->
+    </style>
+    <style name="AlertDialog" parent="@style/ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <!--   <item name="android:textColor">@color/textColor</item>
+           <item name="android:textColorPrimary">@color/textColor</item>
+           <item name="android:colorPrimary">@color/textColor</item>-->
+        <!-- Background Color-->
+        <!--<item name="android:background">@color/backgroundColor</item>-->
+        <!-- Text Color for title and message -->
+        <item name="colorOnSurface">@color/black</item>
+        <!-- Text Color for buttons -->
+        <item name="colorPrimary">@color/black</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.App.SelectedCornerRadius" parent="">
+        <item name="cornerSizeBottomLeft">@dimen/_8sdp</item>
+        <item name="cornerFamilyBottomLeft">rounded</item>
+        <item name="cornerSizeBottomRight">@dimen/_8sdp</item>
+        <item name="cornerFamilyBottomRight">rounded</item>
+        <item name="cornerSizeTopLeft">@dimen/_8sdp</item>
+        <item name="cornerFamilyTopLeft">rounded</item>
+        <item name="cornerSizeTopRight">@dimen/_8sdp</item>
+        <item name="cornerFamilyTopRight">rounded</item>
+    </style>
+</resources>

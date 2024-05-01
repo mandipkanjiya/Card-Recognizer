@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+
+    </data>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/_5sdp">
+        <View
+            android:id="@+id/view"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_3sdp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_5sdp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_16sdp">
+        <TextView
+            android:id="@+id/tvTitle"
+            style="@style/darkTextSemiBold"
+            android:textSize="@dimen/_18sdp"
+            android:text="@string/app_name"
+            android:layout_marginTop="@dimen/_30sdp"
+            />
+        <TextView
+            android:id="@+id/tvSubTitle"
+            style="@style/darkTextMedium"
+            android:textSize="@dimen/_12sdp"
+            android:text="Your Exam Duration is over thank you."
+            android:layout_gravity="left"
+            android:layout_below="@+id/tvTitle"
+            android:layout_marginTop="@dimen/_20sdp"/>
+
+        <TextView
+            style="@style/mediumTextBtnFill"
+            android:id="@+id/btnSure"
+            android:text="Ok"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/colorPrimary"
+            android:textSize="@dimen/_14sdp"
+            android:layout_below="@+id/tvSubTitle"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:layout_marginBottom="@dimen/_10sdp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</layout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   <!-- <item
+        android:id="@+id/bottomhome"
+        android:icon="@drawable/icnewhome"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/bottominstitute"
+        android:icon="@drawable/icnewinstitute"
+        android:title="Institutes"/>
+
+
+    <item
+        android:id="@+id/bottomFeeds"
+        android:icon="@drawable/icnewfeeds"
+        android:title="Feeds"/>
+
+    <item
+        android:id="@+id/bottomAnalytics"
+        android:icon="@drawable/icnewanalytics"
+        android:title="Analytics"/>
+    <item
+        android:id="@+id/bottomSetting"
+        android:icon="@drawable/icnewsetting"
+        android:title="Settings"
+        />-->
+</menu>

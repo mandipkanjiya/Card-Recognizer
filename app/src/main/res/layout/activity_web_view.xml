@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.main.activity.WebViewActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/ivBack"
+                android:layout_width="?actionBarSize"
+                android:layout_height="?actionBarSize">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:src="@drawable/ic_back"
+                    app:tint="@color/white" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tvTitle"
+                style="@style/darkTextSemiBold"
+                android:layout_centerInParent="true"
+                android:text="IELTS Tips"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16sdp" />
+
+
+        </RelativeLayout>
+
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+</layout>

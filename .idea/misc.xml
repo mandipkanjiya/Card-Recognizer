@@ -1,0 +1,122 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Harsh/IELTS-Android/app/src/main/res/drawable/bg_for_main_applied_tab.xml" value="0.179" />
+        <entry key="..\:/Harsh/IELTS-Android/app/src/main/res/drawable/bg_for_writing_ic.xml" value="0.179" />
+        <entry key="..\:/Harsh/IELTS-Android/app/src/main/res/layout/acitvity_sign_in.xml" value="0.1" />
+        <entry key="..\:/Harsh/IELTS-Android/app/src/main/res/layout/activity_announcement_list.xml" value="0.15" />
+        <entry key="..\:/Harsh/IELTS-Android/app/src/main/res/layout/activity_forgot_password.xml" value="0.1" />
+        <entry key="..\:/Harsh/IELTS-Android/app/src/main/res/layout/activity_other_info.xml" value="0.1171448087431694" />
+        <entry key="..\:/Harsh/IELTS-Android/app/src/main/res/layout/activity_signup.xml" value="0.16" />
+        <entry key="..\:/Harsh/IELTS-Android/app/src/main/res/layout/dialog_create_post.xml" value="0.1" />
+        <entry key="..\:/Harsh/IELTS-Android/app/src/main/res/layout/dialog_like.xml" value="0.1" />
+        <entry key="..\:/Harsh/IELTS-Android/app/src/main/res/layout/fragment_applied_job.xml" value="0.10655737704918032" />
+        <entry key="..\:/Harsh/IELTS-Android/app/src/main/res/layout/fragment_find_job.xml" value="0.10860655737704918" />
+        <entry key="..\:/Harsh/IELTS-Android/app/src/main/res/layout/fragment_invitation_job.xml" value="0.1" />
+        <entry key="..\:/Harsh/IELTS-Android/app/src/main/res/layout/fragment_new_home.xml" value="0.10860655737704918" />
+        <entry key="..\:/Harsh/IELTS-Android/app/src/main/res/layout/item_applied_job.xml" value="0.10655737704918032" />
+        <entry key="..\:/Harsh/IELTS-Android/app/src/main/res/layout/item_institiute_list.xml" value="0.10655737704918032" />
+        <entry key="..\:/Harsh/IELTS-Android/app/src/main/res/layout/item_invitation_job.xml" value="0.1" />
+        <entry key="..\:/Harsh/IELTS-Android/app/src/main/res/layout/item_new_exam_list.xml" value="0.1" />
+        <entry key="..\:/Harsh/IELTS-Android/app/src/main/res/layout/item_social_media.xml" value="0.1" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/drawable/bg_bottomcorner_parent_listening.xml" value="0.171" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/drawable/bg_count_total_correctans.xml" value="0.171" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/drawable/bg_count_total_incorrectans.xml" value="0.171" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/drawable/bg_count_total_question.xml" value="0.171" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/drawable/bg_exam_type_option.xml" value="0.171" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/drawable/bg_for_count.xml" value="0.171" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/drawable/bg_for_dash_score.xml" value="0.171" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/drawable/bg_for_examtype_main.xml" value="0.171" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/drawable/bg_for_green_device_log.xml" value="0.171" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/drawable/bg_for_listening_ic.xml" value="0.171" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/drawable/bg_for_reading_ic.xml" value="0.171" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/drawable/bg_for_selected_reading.xml" value="0.171" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/drawable/bg_for_socail_media_text.xml" value="0.2565" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/drawable/bg_for_speaking_ic.xml" value="0.171" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/drawable/bg_for_top_corner.xml" value="0.171" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/drawable/bg_for_view_result.xml" value="0.171" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/drawable/bg_for_writing_ic.xml" value="0.11" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/drawable/bg_instiute_exam.xml" value="0.294" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/drawable/bg_referel_code.xml" value="0.171" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/drawable/bg_round_new_option_exam.xml" value="0.171" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/drawable/bg_selected_item.xml" value="0.171" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/drawable/bg_shape_replacement.xml" value="0.171" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/drawable/bg_shape_wallet_credit_debit.xml" value="0.171" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/drawable/bg_speechtext_view.xml" value="0.3155" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/drawable/bg_top_corner_quetionanswer.xml" value="0.171" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/drawable/bg_total_correctans.xml" value="0.171" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/drawable/bg_total_incorrectans.xml" value="0.171" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/drawable/bg_total_question.xml" value="0.171" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/drawable/bg_total_score.xml" value="0.171" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/drawable/bg_unselected_item.xml" value="0.171" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/drawable/button_fill_background.xml" value="0.171" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/drawable/card_fill_lightgray_background.xml" value="0.171" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/drawable/edittext_outline_background.xml" value="0.3155" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/drawable/filter_background.xml" value="0.171" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/drawable/payment_method_selecter.xml" value="0.171" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/acitvity_sign_in.xml" value="0.22" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/activity_announcement_list.xml" value="0.1451545530492899" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/activity_answer_analytics.xml" value="0.17831813576494426" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/activity_choose_acedmic_exam.xml" value="0.22" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/activity_institute_detail.xml" value="0.14" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/activity_institute_fragment.xml" value="0.2111111111111111" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/activity_intro_step.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/activity_job_answer_list.xml" value="0.22" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/activity_job_detail.xml" value="0.25" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/activity_job_question_list.xml" value="0.22" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/activity_listening_exam_webview.xml" value="0.30085470085470084" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/activity_listening_result.xml" value="0.33" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/activity_listening_show_answer.xml" value="0.25" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/activity_main.xml" value="0.1890625" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/activity_other_info.xml" value="0.17831813576494426" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/activity_payment.xml" value="0.2111111111111111" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/activity_record.xml" value="0.2" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/activity_sign_in2.xml" value="0.17863247863247864" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/activity_signup.xml" value="0.18" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/activity_signup_step2.xml" value="0.30492424242424243" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/activity_signup_step3.xml" value="0.20260416666666667" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/activity_splash.xml" value="0.22" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/activity_wallet.xml" value="0.30085470085470084" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/activity_web_view.xml" value="0.30085470085470084" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/dialog_ask_revisionconfirm.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/dialog_create_post.xml" value="0.2329059829059829" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/dialog_otp.xml" value="0.3375" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/dialog_success.xml" value="0.2111111111111111" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/fragment_applied_job.xml" value="0.22954977805960686" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/fragment_find_job.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/fragment_intro_step1.xml" value="0.18" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/fragment_intro_step2.xml" value="0.2111111111111111" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/fragment_intro_step3.xml" value="0.2111111111111111" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/fragment_invitation_job.xml" value="0.297008547008547" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/fragment_new_home.xml" value="0.22" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/fragment_setting.xml" value="0.14703425229741018" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/item_analyst_data.xml" value="0.1890625" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/item_analyst_type.xml" value="0.1890625" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/item_applied_job.xml" value="0.30085470085470084" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/item_child_listening_result.xml" value="0.25" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/item_find_job.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/item_grammer_analyst_data.xml" value="0.30085470085470084" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/item_header_analyst_data.xml" value="0.1890625" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/item_institute_detail_list.xml" value="0.5" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/item_institute_exam.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/item_location_place.xml" value="0.2" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/item_new_exam_list.xml" value="0.296875" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/item_noun_verb_laxical_adapter.xml" value="0.30085470085470084" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/item_parent_listening_result.xml" value="0.25" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/item_question_list.xml" value="0.25" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/item_quetion_ans_list.xml" value="0.21" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/item_social_media.xml" value="0.20598290598290597" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/item_summary_adpater.xml" value="0.13125" />
+        <entry key="..\:/Projects/IELTSAnalystLatest/app/src/main/res/layout/item_summary_data.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

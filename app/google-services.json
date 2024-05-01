@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "1062962283651",
+    "project_id": "ielts-analyst",
+    "storage_bucket": "ielts-analyst.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062962283651:android:781280146336b61a9f07b6",
+        "android_client_info": {
+          "package_name": "com.cardrecognize"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062962283651-7oijfsocj9apvi9vsju5u003roq39447.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdGfsB5_-ANWrK8wDMLbdgzK7V3qfE_3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062962283651-7oijfsocj9apvi9vsju5u003roq39447.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1062962283651-geu5hkho6gnfqf2mnoc043qnd5alamj3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ieltsanalyst"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062962283651:android:3c54da4afb436c1c9f07b6",
+        "android_client_info": {
+          "package_name": "com.iltsanalyst"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062962283651-6lpsp1oldb7r6el4d3mk4n5uoo5h6nj2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iltsanalyst",
+            "certificate_hash": "c9a2b7ffdaa1c64af8f2dc4ba61e7ce16687418d"
+          }
+        },
+        {
+          "client_id": "1062962283651-ejp15l9mieuv8ip2ej09nsmo6non4oo9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iltsanalyst",
+            "certificate_hash": "1b2908090d09e3339c9daff548cc6bf5bcf36a38"
+          }
+        },
+        {
+          "client_id": "1062962283651-kg3euv4tvphvtdtmjbu998ap216kk2vs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iltsanalyst",
+            "certificate_hash": "f0a53d3158871bbd5c4f7ccfcdb56cf7c9f7be0e"
+          }
+        },
+        {
+          "client_id": "1062962283651-sen7i9o98i9edcejsk3adjt1sflh6ofh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iltsanalyst",
+            "certificate_hash": "93eaffc28fc391e12e80359f894849833dfa3ab7"
+          }
+        },
+        {
+          "client_id": "1062962283651-7oijfsocj9apvi9vsju5u003roq39447.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdGfsB5_-ANWrK8wDMLbdgzK7V3qfE_3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062962283651-7oijfsocj9apvi9vsju5u003roq39447.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1062962283651-geu5hkho6gnfqf2mnoc043qnd5alamj3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ieltsanalyst"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

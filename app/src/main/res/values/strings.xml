@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Card Recognize</string>
+
+    <string name="applied_job">Applied Exam</string>
+    <string name="find_job">Find Exam</string>
+    <string name="invitation_job">Invitations</string>
+    <string name="do_not_account">Don\'t have an account?</string>
+    <string name="forgot_pass">Forgot Password?</string>
+
+    <string name="email">Your Email</string>
+    <string name="enter_password">Enter your password *</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="or">or</string>
+    <string name="sign_in">Sign in</string>
+
+
+    <string name="full_name">Enter first name *</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="already_account">Already have an account? </string>
+    <string name="traveler_work_step1">Speaking Analysis</string>
+    <string name="traveler_work_step1_txt">When you listen your practiced speaking tests, you will not be able to find any mistakes. But when AI powered system will convert that into text and highlight the incorrect phrases from your spoken test, it will be a tremendous help to you.</string>
+    <string name="traveler_work_step2">Writing Analysis</string>
+    <string name="traveler_work_step2_txt">Writing exam needs a lot of attentions on grammar, keywords, sentiments, emotion and many more in which IELTS Analyst can be quite helpful.</string>
+    <string name="traveler_work_step3">Improvement Graphs</string>
+    <string name="traveler_work_step3_txt">Candidate can track his/her own progress with visualized graphs and improve their performance.</string>
+
+    <string name="uxa_key">u12333yc07k22slu</string>
+    <string name="lbl_otp_sent">OTP Sent Successfully</string>
+    <string name="lbl_enter_valid_otp">Enter Valid code</string>
+    <string name="lbl_error_otp_not_sent">OTP does not sent successfully</string>
+    <string name="title_activity_delete_account">DeleteAccountActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="str_deleteaccount_desc">Dear user,\n\nDeleting your account will:\n\n\t\t\t1) Delete your identity info and \n\t\t\tprofile\n\t\t\t2) Delete your Exam information.\n\t\t\t3) Delete your uploads.\n\t\t\tapp.\n\nNote : You will not be able to recover your account.\n\nSincerely</string>
+
+</resources>
