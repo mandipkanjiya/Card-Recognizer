@@ -4,7 +4,9 @@ buildscript {
         mavenCentral()
         google()
         maven { url "https://jitpack.io" }
+
     }
+    
     dependencies {
         classpath 'com.android.tools.build:gradle:8.3.2'
         classpath 'com.google.gms:google-services:4.3.14'
@@ -22,6 +24,13 @@ allprojects {
         maven { url "https://jitpack.io" }
 
     }
+   /* dependencyResolutionManagement {
+        repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+        repositories {
+            mavenCentral()
+            maven { url 'https://jitpack.io' }
+        }
+    }*/
 }
 
 task clean(type: Delete) {

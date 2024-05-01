@@ -67,5 +67,6 @@ public class SelectOptionActivity extends BaseActivity<ActivitySelectOptionBindi
         });
         /*ItemCardHistiryAdapter itemInstituteList = new ItemCardHistiryAdapter(CardHistoryActivity.this, ArrayList());
         getViewBinding().rvCardHistory.setAdapter(itemInstituteList);*/
+
     }
 }
