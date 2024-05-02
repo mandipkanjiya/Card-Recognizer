@@ -2,9 +2,6 @@ plugins {
     id 'com.android.application'
 }
 apply plugin: 'com.google.gms.google-services'
-apply plugin: 'maven-publish'
-
-
 
 android {
     compileSdk 34
@@ -32,23 +29,11 @@ android {
         buildConfig true
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_17
-        targetCompatibility JavaVersion.VERSION_17
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 
     namespace 'com.ocrapp'
-}
-afterEvaluate {
-    publishing {
-        publications {
-            release(MavenPublication) {
-                from components.findByName('release')
-                groupId = 'com.github.mandipkanjiya'
-                artifactId = 'Card-Recognizer'
-                version = '1.0.7'
-            }
-        }
-    }
 }
 dependencies {
     implementation 'androidx.localbroadcastmanager:localbroadcastmanager:1.0.0'
@@ -86,5 +71,5 @@ dependencies {
    //implementation 'com.github.mandipkanjiya:Card-Recognizer:1.0.1'
    implementation project(':cardocrlibrary')
 
-
+   // implementation 'com.github.mandipkanjiya:Card-Recognizer:1.0.7'
 }
