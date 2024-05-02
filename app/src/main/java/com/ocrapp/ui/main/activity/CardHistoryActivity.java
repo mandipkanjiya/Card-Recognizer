@@ -25,7 +25,6 @@ public class CardHistoryActivity extends BaseActivity<ActivityCardHistoryBinding
     protected int getLayoutId() {
         return R.layout.activity_card_history;
     }
-
     @Override
     protected Toolbar getToolbar() {
         return null;

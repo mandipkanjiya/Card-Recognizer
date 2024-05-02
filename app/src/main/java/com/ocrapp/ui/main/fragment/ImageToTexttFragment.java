@@ -104,7 +104,6 @@ public class ImageToTexttFragment extends BaseActivity<FragementImageToTextBindi
     List<String> stringArray = new ArrayList<String>();
 
     List<CardHistoryModel> cardHistoryList = new ArrayList<CardHistoryModel>();
-    CardRecognizeInfo cardRecognizeInfo;
     @Override
     protected VMImageToText getViewModelInstance() {
         return new ViewModelProvider(this, new ViewModelProvider.AndroidViewModelFactory(getApplication())).get(VMImageToText.class);
