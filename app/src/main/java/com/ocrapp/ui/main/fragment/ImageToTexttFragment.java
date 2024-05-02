@@ -70,7 +70,6 @@ public class ImageToTexttFragment extends BaseActivity<FragementImageToTextBindi
     String date2 = "";
     String date3 = "";
     String date4 = "";
-
    // String birthDate = "";
     String birthDate = "";
     String effectiveDate = "";

@@ -34,7 +34,7 @@ afterEvaluate {
                 from components.findByName('release')
                 groupId = 'com.github.mandipkanjiya'
                 artifactId = 'Card-Recognizer'
-                version = '1.1.0'
+                version = '1.0.7'
             }
         }
     }
