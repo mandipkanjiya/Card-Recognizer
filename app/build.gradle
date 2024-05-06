@@ -1,7 +1,7 @@
 plugins {
     id 'com.android.application'
+    id 'com.google.gms.google-services'
 }
-apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdk 34
@@ -69,7 +69,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth'*/
     implementation 'com.google.firebase:firebase-ml-vision:24.0.3'
    //implementation 'com.github.mandipkanjiya:Card-Recognizer:1.0.1'
-   implementation project(':cardocrlibrary')
+    implementation project(':cardocrlibrary')
     //implementation 'com.github.mandipkanjiya:HeyFlyerAirportData-Android:1.0.0'
-  // implementation 'com.github.mandipkanjiya:Card-Recognizer:1.0.9'
+  //implementation 'com.github.mandipkanjiya:Card-Recognizer:1.0.7'
 }

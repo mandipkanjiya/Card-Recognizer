@@ -39,6 +39,15 @@ afterEvaluate {
         }
     }
 }
+/*publishing {
+    publications {
+        register<MavenPublication>("release") {
+            afterEvaluate {
+                from(components["release"])
+            }
+        }
+    }
+}*/
 dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.6.1'
